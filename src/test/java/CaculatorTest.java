@@ -34,7 +34,7 @@ class CaculatorTest {
 
     @Test
     public void divide_1(){
-        assertEquals(2.0, calculator.divide(10,5));
+        assertEquals(100.0, calculator.divide(10,5));
     }
     @Test //số chia và số bị chia là 2 số âm (Phân vùng tương đương)
     public void divide_2(){
