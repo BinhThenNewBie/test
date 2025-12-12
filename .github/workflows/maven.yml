@@ -19,8 +19,8 @@ jobs:
 
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      security-events: write
+      contents: write
+      dependency-graph: write
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
