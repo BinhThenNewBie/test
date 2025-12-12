@@ -20,9 +20,6 @@ on:
 
 jobs:
   build:
-permissions:
-  contents: write
-  dependency-graph: write
     runs-on: ubuntu-latest
 
     steps:
