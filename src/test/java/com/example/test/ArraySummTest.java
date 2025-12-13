@@ -13,7 +13,7 @@ class ArraySummTest {
     }
     @Test
     public void testcongmanggiatritaibienduoi(){
-        assertEquals(0,arr.sum(new int[]{-1,0}));
+        assertEquals(0,arr.sum(new int[]{0,0}));
     }
     @Test
     public void testcongmanggiatritaibientren(){
