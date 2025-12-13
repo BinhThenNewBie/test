@@ -12,8 +12,12 @@ class ArraySummTest {
         arr = new ArraySumm();
     }
     @Test
-    public void testcongmangtaibienduoi(){
-        assertEquals(10,arr.sum(new int[]{1,2,3,4,}));
+    public void testcongmanggiatritaibienduoi(){
+        assertEquals(0,arr.sum(new int[]{0,0}));
+    }
+    @Test
+    public void testcongmanggiatritaibientren(){
+        assertEquals(4000,arr.sum(new int[]{2000,2000}));
     }
 
 }
